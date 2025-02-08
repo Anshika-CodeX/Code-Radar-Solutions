@@ -9,7 +9,7 @@ int main() {
     int i,a;
     scanf("%d",&i);
     scanf("%d",&a);
-    printf("%d + %d",i,a,i+a);
+    printf("sum: i,a,i+a");
 
 
 
