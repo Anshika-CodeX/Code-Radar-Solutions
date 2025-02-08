@@ -9,6 +9,6 @@ int main() {
     char a,b[100];
     scanf("%s",a);
     scanf("%s",b);
-    printf("You entered: %s %s"a,b)
+    printf("You entered: %s&&%s"a,b)
     return 0;
 }
