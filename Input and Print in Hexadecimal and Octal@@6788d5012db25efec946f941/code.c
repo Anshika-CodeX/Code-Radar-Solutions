@@ -10,5 +10,5 @@ int main() {
     scanf("%d" &a);
     printf("Hexadecimal: %X\n",a);
     printf("Octa: %o\n",a);
-     return 0;
+    return 0;
 }
