@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int i;
     scanf("%d",i);
-    scanf("%d"i);
+    scanf("%d",i);
     printf("%d + %d",i,i,i+i);
 
 
