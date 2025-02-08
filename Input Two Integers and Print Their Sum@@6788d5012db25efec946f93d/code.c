@@ -6,10 +6,10 @@
 
 int main() {
     // printf("%s", welcome());
-    int i;
+    int i,a;
     scanf("%d",i);
-    scanf("%d",i);
-    printf("%d + %d",i,i,i+i);
+    scanf("%d",a);
+    printf("%d + %d",i,a,i+a);
 
 
 
