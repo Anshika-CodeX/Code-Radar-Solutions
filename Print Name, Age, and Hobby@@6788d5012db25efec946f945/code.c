@@ -5,12 +5,13 @@
 // }
 
 int main() {
-    char Name[100] , Age[100] , Hobby[100];
+    char Name[100], Hobby[100];
+    int Age;
     scanf("%c",&Name);
-    scanf("%c",%Age);
+    scanf("%d",%Age);
     scanf("%c",&Hobby);
     printf("Name: %c",Name);
-    printf("Age: %c",Age);
+    printf("Age: %d",Age);
     printf("Hobby: %c",Hobby);
 
 
