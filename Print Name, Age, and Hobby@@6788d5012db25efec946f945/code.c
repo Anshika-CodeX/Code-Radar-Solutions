@@ -10,9 +10,9 @@ int main() {
     scanf("%s",&Name);
     scanf("%s",%Age);
     scanf("%c",&Hobby);
-    printf("Name: %c",Name);
+    printf("Name: %s",Name);
     printf("Age: %d",Age);
-    printf("Hobby: %c",Hobby);
+    printf("Hobby: %s",Hobby);
 
 
     // printf("%s", welcome());
