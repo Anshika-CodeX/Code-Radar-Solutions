@@ -12,6 +12,9 @@ int main() {
         printf("False");
 
     } 
+    elseif(a=1){
+        printf("False")
+    }
     else{
         printf("True");
     }// printf("%s", welcome());
