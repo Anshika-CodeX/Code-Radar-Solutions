@@ -1,23 +1,20 @@
 #include <stdio.h>
 
-// char* welcome() {
-//     return "Welcome to Code Radar!";
-// }
-
 int main() {
-    int a,b,c;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    scanf("%d",&c);
-    if(a=b=c){
+    int a, b, c;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+
+    if (a == b && b == c) {
         printf("Equilateral");
     }
-    else if (a=b!=c) || (b=c!=a) ||(c=a!=b){
-        printf("Isosceles");     
+    else if (a == b || b == c || c == a) {
+        printf("Isosceles");
     }
-    else if (a!=b!=c){
+    else {
         printf("Scalene");
     }
-    // printf("%s", welcome());
+
     return 0;
 }
