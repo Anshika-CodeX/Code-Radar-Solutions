@@ -16,10 +16,10 @@ int main() {
         printf("Loss");
     }
     else if(a-b==0){
-        printf("No profit no loss");
+        printf("No profit No loss");
     }
     else{
-       printf("No profit no loss");
+       printf("No profit No loss");
     }
     
     return 0;
