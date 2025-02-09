@@ -14,10 +14,7 @@ int main() {
     elseif(b>a){
         printf("%d",b);
     }
-    else{
-        printf("")
-    }
-
+  
     }
       
 
