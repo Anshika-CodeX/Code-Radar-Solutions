@@ -8,13 +8,13 @@ int main() {
     int a;
     scanf("%d",&a);
     if(a>0){
-        printf("Positive")
+        printf("Positive");
     }
     elseif(a<0){
-        printf("Negative")
+        printf("Negative");
     }
     elseif(a=0){
-        printf("Zero")
+        printf("Zero");
     }
 //     printf("%s", welcome());
     return 0;
