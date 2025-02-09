@@ -5,14 +5,14 @@
 // }
 
 int main() {
-    int year;
-    scanf("%d",&year);
-    if ((year%4==0 && year%100!=0) || (year%400==0))
+    int yearear;
+    scanf("%d",&Year);
+    if ((Year%4==0 && Year%100!=0) || (Year%400==0))
     {
-    printf("Leap year");
+    printf("Leap Year");
     }
     else{
-        printf("Not a Leap year");
+        printf("Not a Leap Year");
     }
     return 0;
 }
