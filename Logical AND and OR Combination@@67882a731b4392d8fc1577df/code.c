@@ -6,8 +6,8 @@
 
 int main() {
     int a,b;
-    scanf("%d",a);
-    scanf("%d",b);
+    scanf("%d",&a);
+    scanf("%d",&b);
     if(a>0 && b<0 ||  a&&b==0) {
         printf("True");
     }
