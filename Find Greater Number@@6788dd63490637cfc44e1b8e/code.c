@@ -11,9 +11,16 @@ int main() {
     if(a>b){
         printf("");
     }
-    else{
-        printf("");
+    elseif(b>a){
+        printf("")
     }
+    else{
+        printf("")
+    }
+
+    }
+      
+
     // printf("%s", welcome());
     return 0;
 }
