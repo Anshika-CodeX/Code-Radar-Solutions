@@ -12,9 +12,9 @@ int main() {
     {
         printf("True");
     }
-    else(
+    else{
         printf("False");
-    )
+}
 
     // printf("%s", welcome());
     return 0;
