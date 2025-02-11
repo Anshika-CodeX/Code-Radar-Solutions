@@ -6,13 +6,13 @@ int main(){
     if(grade=='A'){
         printf("Excellent");
     }
-    else if(grade==B){
+    else if(grade=='B'){
         printf("Good");
     }
-    else if(grade==C){
+    else if(grade=='C'){
         printf("Average");
     }
-    else if(grade==D){
+    else if(grade=='D'){
         printf("Below Average");
     }
     else if(grade==F){
