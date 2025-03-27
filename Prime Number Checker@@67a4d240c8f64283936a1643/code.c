@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int isPrime(int num) {  // Correct function declaration
+int isPrime(int num) {  // Define only this function
     if (num < 2) return 0;  // 0 and 1 are not prime
 
     for (int i = 2; i < num; i++) {  // Check divisibility
@@ -10,15 +10,3 @@ int isPrime(int num) {  // Correct function declaration
     return 1;  // Prime
 }
 
-int main() {
-    int num;
-  
-    scanf("%d", &num);
-
-    if (isPrime(num))
-        printf("%d is a Prime Number\n", num);
-    else
-        printf("%d is Not a Prime Number\n", num);
-
-    return 0;
-}
