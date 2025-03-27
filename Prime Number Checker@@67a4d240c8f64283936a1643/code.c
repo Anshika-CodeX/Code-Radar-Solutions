@@ -12,7 +12,7 @@ int isPrime(int num) {  // Correct function declaration
 
 int main() {
     int num;
-    printf("Enter a number: ");
+  
     scanf("%d", &num);
 
     if (isPrime(num))
