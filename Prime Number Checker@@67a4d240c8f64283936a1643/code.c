@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int isPrime()
- int isPrime(num){
+ int isPrime(num) {
     if(num<2) return 0;
     for (int i = 2;i<num;i++){
         if(num % i ==0)
@@ -10,7 +10,7 @@ int isPrime()
     return 1;
     
 }
-int main(){
+int main() {
     int num;
     scanf("%d",&num);
     isPrime(num);
